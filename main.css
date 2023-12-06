@@ -1,0 +1,11 @@
+.page{
+    height: 1080px;
+    width: 1920px;
+    background-color: rgb(39, 39, 39);
+}
+.top{
+    background-color: #fc2626;
+    height: 50px;
+    width: 1920px;
+
+}
