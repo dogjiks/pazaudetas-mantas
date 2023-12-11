@@ -4,8 +4,32 @@
     background-color: rgb(39, 39, 39);
 }
 .top{
-    background-color: #fc2626;
+    background-color: rgb(39, 39, 39);
     height: 50px;
     width: 1920px;
+    position: relative;
+    border: solid 1px white;
 
+}
+.logo{
+    height:50px;
+    width: 170px;
+    background-color: rgb(170, 170, 170);
+    position: relative;
+    right: 1px;
+    font-size: 24px;
+    font-family: Inter;
+    text-align: center;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid -1px white;
+}
+.mids{
+    height: 300px;
+    width: 1750px;
+    background-color: aqua;
+    position: relative;
+    margin-left: ;
 }
