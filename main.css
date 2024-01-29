@@ -4,11 +4,12 @@
     background-color: rgb(39, 39, 39);
 }
 .top{
-    background-color: rgb(39, 39, 39);
+    background-color:#111;
+    top: 0;
     height: 50px;
     width: 1920px;
-    position: relative;
-    border: solid 1px white;
+    position: fixed;
+    
 
 }
 .logo{
@@ -27,8 +28,8 @@
     border: solid -1px white;
 }
 .mids{
-    height: 300px;
     width: 1750px;
+    bottom: 0;
     background-color: aqua;
     display: flex;
     justify-content: flex-end;
@@ -42,4 +43,47 @@
     margin-left: 0;
     background-color: blanchedalmond;
     bottom: 0px;
+}
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+body{
+   margin: 0;
+}
+
+.sidebar{
+   position: fixed;
+   width: 250px;
+   top:0;
+   left: 0;
+   bottom: 0;
+   background: #111;
+   padding-top: 50px;
+}
+
+.sidebar h1{
+   display: block;
+   padding: 20px 10px;
+   color: #fff;
+   text-decoration: none;
+   letter-spacing: 2px;
+   font-weight: 400;
+   margin: 0;
+   font-size: 40px;
+   text-transform: uppercase;
+}
+
+.sidebar a{
+   display: block;
+   padding: 70px 10px;
+   color: #bbb;
+   text-decoration: none;
+   font-family: "Rubik";
+   letter-spacing: 2px;
+   font-size: 25px;
+}
+
+.sidebar a:hover{
+   color: #fff;
+   margin-left: 20px;
+   transition: 0.4s;
 }
