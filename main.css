@@ -78,8 +78,10 @@ body{
    color: #bbb;
    text-decoration: none;
    font-family: "Rubik";
+   font-weight: 600;
    letter-spacing: 2px;
    font-size: 25px;
+   transition: 0.2s;
 }
 
 .sidebar a:hover{
