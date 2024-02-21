@@ -142,9 +142,3 @@ body {
     box-shadow: 0 0 20px rgba(104, 85, 224, 0.6);
     background-color: #ffffff;
   }
-  .page p{
-  display: flex;
-  justify-content: center;
-  align-items: center; 
-  font-size: 72px;;
-  }
